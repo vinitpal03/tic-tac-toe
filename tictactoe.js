@@ -20,6 +20,8 @@ const playAgain = () => {
     box.disabled = false;
     document.getElementById("winner-display").innerText = "";
   });
+  user1.value = "";
+  user2.value = "";
   turnO = true;
 };
 boxes.forEach((box) => {
